@@ -1,0 +1,20 @@
+name:                  unification
+version:               0.1.0.0
+synopsis:              Generic context-based unification algorithm.
+--description:           
+license:               MIT
+license-file:          LICENSE
+author:                Sam T.
+maintainer:            Sam T. <sta.cs.vsu@gmail.com>
+copyright:             (c) 2012, Sam T.
+category:              Data, Unification
+build-type:            Simple
+cabal-version:         >=1.8
+
+library
+  exposed-modules:     
+  -- other-modules:
+  build-depends:       base       == 4.5.*
+                     , containers == 0.4.*
+                     , mtl        == 2.1.*
+                     , QuickCheck == 2.4.*
