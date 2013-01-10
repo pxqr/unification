@@ -1,7 +1,11 @@
 name:                  unification
 version:               0.1.0.0
 synopsis:              Generic context-based unification algorithm.
-description:           This package implements unification algorithm which run in MonadContext and therefore can fit seamlessly in many unification use-cases.
+
+description:           This package implements unification algorithm which run 
+                       in MonadContext and therefore can fit seamlessly in many 
+                       unification use-cases.
+
 license:               MIT
 license-file:          LICENSE
 author:                Sam T.
