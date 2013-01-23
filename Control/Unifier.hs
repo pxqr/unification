@@ -1,5 +1,7 @@
-module Control.Unifier 
-       ( Unifier
+-- | Default unifier monad.
+module Control.Unifier
+       ( module Control.Unification.Context
+       , Unifier, Result
        , evalUnifier
        , run
        ) where
