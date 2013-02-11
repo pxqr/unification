@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fmap/unification.png)](https://travis-ci.org/fmap/unification)
+
 The main idea of this package is that we can eliminate explicit substitutions and consider context as substitution. Context can be reused in type inference algorithms, some logic routunes, or another algorithms which use unification.
 
 So we introduce three main primitives:
